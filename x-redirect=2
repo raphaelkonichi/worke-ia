@@ -1,0 +1,31 @@
+WARNING: combining -O with -r or -p will mean that all downloaded content
+will be placed in the single file you specified.
+
+WARNING: timestamping does nothing in combination with -O. See the manual
+for details.
+
+--2022-10-09 15:45:06--  https://storage.cloud.google.com/ia-images-worke/ia-images.zip
+Resolving storage.cloud.google.com (storage.cloud.google.com)... 142.251.128.14
+Connecting to storage.cloud.google.com (storage.cloud.google.com)|142.251.128.14|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://accounts.google.com/ServiceLogin?service=cds&passive=1209600&continue=https://storage.cloud.google.com/ia-images-worke/ia-images.zip&followup=https://storage.cloud.google.com/ia-images-worke/ia-images.zip [following]
+--2022-10-09 15:45:06--  https://accounts.google.com/ServiceLogin?service=cds&passive=1209600&continue=https://storage.cloud.google.com/ia-images-worke/ia-images.zip&followup=https://storage.cloud.google.com/ia-images-worke/ia-images.zip
+Resolving accounts.google.com (accounts.google.com)... 172.217.29.13
+Connecting to accounts.google.com (accounts.google.com)|172.217.29.13|:443... connected.
+HTTP request sent, awaiting response... 302 Moved Temporarily
+Location: https://accounts.google.com/v3/signin/identifier?dsh=S-519281208%3A1665341105273115&continue=https%3A%2F%2Fstorage.cloud.google.com%2Fia-images-worke%2Fia-images.zip&followup=https%3A%2F%2Fstorage.cloud.google.com%2Fia-images-worke%2Fia-images.zip&passive=1209600&service=cds&flowName=WebLiteSignIn&flowEntry=ServiceLogin&ifkv=AQDHYWqAkTlIyhIBQa36D2YOgjYV8NAZ3lgrR6a_JwcvCRayqRR62C7Z6sHT3RTXIFCNprWd594QSQ [following]
+--2022-10-09 15:45:06--  https://accounts.google.com/v3/signin/identifier?dsh=S-519281208%3A1665341105273115&continue=https%3A%2F%2Fstorage.cloud.google.com%2Fia-images-worke%2Fia-images.zip&followup=https%3A%2F%2Fstorage.cloud.google.com%2Fia-images-worke%2Fia-images.zip&passive=1209600&service=cds&flowName=WebLiteSignIn&flowEntry=ServiceLogin&ifkv=AQDHYWqAkTlIyhIBQa36D2YOgjYV8NAZ3lgrR6a_JwcvCRayqRR62C7Z6sHT3RTXIFCNprWd594QSQ
+Reusing existing connection to accounts.google.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: '/tmp/ia-images.zip'
+
+     0K .......... .......... .......... .......... .......... 2,91M
+    50K .......... .......... .......... .......... ..........  962K
+   100K .......... .......... .......... .......               3,70M=0,08s
+
+2022-10-09 15:45:06 (1,71 MB/s) - '/tmp/ia-images.zip' saved [140992]
+
+FINISHED --2022-10-09 15:45:06--
+Total wall clock time: 0,5s
+Downloaded: 1 files, 138K in 0,08s (1,71 MB/s)
